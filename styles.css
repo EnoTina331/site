@@ -145,6 +145,9 @@ footer{
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    border: 8px;
+    img{padding-bottom: 10px ;}
     
 }
 
