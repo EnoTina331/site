@@ -1,0 +1,160 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url("светлый\ фон.jpg");
+    background-attachment:fixed;
+    font-size: 20px;
+}
+
+.btn{
+    padding: 3px;
+    border-radius: 3px;
+    background-color: rgb(255, 255, 255);
+    font-family: Arial;
+    box-shadow: 0 5px 15px 0 rgb(255, 255, 255);
+    transition: 0.5s;
+    margin: 10px;
+    margin-bottom: 5px;
+  
+}
+.btn-hower{
+    transform: translate(0,-3px);
+    box-shadow: 0 20px 40px 0 rgb(255, 255, 255);
+}
+
+img{
+    width: 400px;
+    border-radius: 15px;
+    height: 250px;
+    float: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.bebra{
+    display: flex;
+    p{padding-left: 20px ;}
+    flex-wrap: wrap;
+    font-size: large;
+    
+}
+
+
+
+header {
+    background-color: rgb(75, 170, 218);
+    color: rgb(255, 255, 255);
+    padding: 40px ;
+    text-align: center;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px; 
+    box-shadow: 5px 4px 8px rgba(10, 0, 0, 25);  
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.fish-card {
+    background-color: #ffffff;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 15); 
+    margin-bottom: 20px;
+    padding: 15px;
+    opacity: 0; 
+    transform: translateY(20px); 
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; 
+    width: 400px;
+    max-width: 90%;
+}
+
+.more-info {
+    margin-top: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-left: 4px solid #007BFF;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #007BFF;
+    color: white;
+}
+
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.info{
+    margin: 0 auto;
+    display: block;
+    bottom: 0;
+    margin-top: auto;
+    border-radius: 10px;
+    background-color: #2884d5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+}
+
+footer{
+    background: none ;
+    
+}
+
+
+.listtext{
+    display: flex;
+    p{padding-left: 20px ;}
+    flex-wrap: wrap;
+    font-size: large;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    font-size: 20px;
+    
+}
+
+.fishimg{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.qwer{
+    background-color: #ffffff;
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 15); 
+    margin-bottom: 20px;
+    padding: 15px;
+    transform: translateY(20px); 
+    transition: opacity 0.5s ease-out, transform 0.5s ease-out; 
+    width: auto;
+}
